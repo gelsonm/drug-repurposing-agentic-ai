@@ -1,0 +1,222 @@
+Your current input:
+
+Drug: Metformin
+Disease: Colorectal Cancer
+
+is useful for a demo, but it is not how researchers, pharma scientists, or clinicians typically explore repurposing opportunities. Recent systems such as DrugReAlign, TxGNN, DrugReX, BioScientist Agent, and graph-based LLM repurposing frameworks tend to start from a research question or unmet need, not necessarily a fixed drug-disease pair.
+
+What's wrong with the current input?
+
+Currently the user is saying:
+
+"I already know the drug and disease. Tell me if it works."
+
+That's actually the last stage of repurposing.
+
+The real value is discovering opportunities.
+
+For example:
+
+A researcher usually thinks:
+
+We need better treatments for pancreatic cancer.
+
+or
+
+What existing approved drugs could target KRAS mutations?
+
+or
+
+What drugs affect AMPK pathways involved in colorectal cancer?
+
+not
+
+Metformin + colorectal cancer
+
+because they may not even know Metformin is worth investigating.
+
+What modern systems use instead
+
+From recent literature, I see four major entry points.
+
+Type 1 — Disease-first (Most Common)
+
+User input:
+
+Disease:
+Pancreatic Cancer
+
+Expected output:
+
+Top Repurposing Candidates
+
+1. Metformin
+2. Atorvastatin
+3. Doxycycline
+4. Aspirin
+5. Rapamycin
+
+Then provide:
+
+Mechanism
+Literature evidence
+Clinical evidence
+Confidence score
+
+This is probably the most realistic pharma workflow.
+
+Type 2 — Target-first (Very Popular in Research)
+
+User input:
+
+Target:
+KRAS
+
+or
+
+Pathway:
+PI3K-AKT-mTOR
+
+Output:
+
+Existing approved drugs affecting this pathway
+
+Many modern drug discovery teams think in terms of:
+
+Gene
+Protein
+Pathway
+Mutation
+
+rather than diseases.
+
+Type 3 — Phenotype / Symptom Driven
+
+Input:
+
+Drug-resistant breast cancer
+
+or
+
+Hypoxia-driven tumors
+
+Output:
+
+Potential drugs
+Supporting pathways
+Supporting papers
+
+This aligns more closely with real translational medicine.
+
+Type 4 — Open Research Question (Most Interesting)
+
+Input:
+
+Find approved non-oncology drugs
+that may suppress colorectal cancer progression.
+
+or
+
+Suggest drug repurposing opportunities
+for KRAS-mutated pancreatic cancer.
+
+This is where an agentic system shines.
+
+The agents first determine:
+
+Disease
+Genes
+Pathways
+Evidence sources
+
+before starting analysis.
+
+This is much closer to how LLM-agent systems are being designed now.
+
+What I would build for the hackathon
+
+Instead of:
+
+Drug Dropdown
+Disease Dropdown
+
+I would create:
+
+Research Copilot Input
+What biomedical question would you like to investigate?
+
+[________________________________________________]
+
+Examples:
+• Find approved drugs for glioblastoma
+• Drugs affecting KRAS pathways
+• Repurposing opportunities for pancreatic cancer
+• Non-oncology drugs for breast cancer
+Then internally classify the query
+
+Agent 0 (Query Planner)
+
+Detects:
+
+{
+  "intent": "disease_search",
+  "entity": "Pancreatic Cancer"
+}
+
+or
+
+{
+  "intent": "target_search",
+  "entity": "KRAS"
+}
+
+or
+
+{
+  "intent": "drug_validation",
+  "drug": "Metformin",
+  "disease": "CRC"
+}
+
+Then launches the appropriate workflow.
+
+Best UX for judges
+
+For a hackathon, I would actually support all four:
+
+Mode A — Discover Drugs
+Disease → Drug Candidates
+
+Example:
+
+Pancreatic Cancer
+Mode B — Validate Hypothesis
+Drug + Disease
+
+Example:
+
+Metformin + CRC
+Mode C — Target Analysis
+KRAS
+Mode D — Natural Language Research Question
+Suggest approved drugs
+for hypoxia-driven colorectal cancer.
+
+This will impress judges because it feels like a true AI research assistant rather than a form with two dropdowns.
+
+If this were a real pharma product
+
+My primary input would be:
+
+Research Question:
+
+Example:
+
+Find approved non-oncology drugs
+that may inhibit KRAS-driven pancreatic cancer.
+
+Everything else (drug, disease, target, pathway) should be extracted automatically by an LLM planner agent.
+
+That aligns much more closely with where the latest KG + LLM + Agent drug-repurposing research is heading: natural-language scientific inquiry, knowledge-graph reasoning, explainable path discovery, and evidence-backed hypothesis generation.
+
+So if your goal is "win the hackathon", I'd keep the dropdowns as a fallback, but make the main input a research-question text box and let Agent 0 decide which downstream workflow to execute.
