@@ -1,0 +1,1359 @@
+{
+  "_description": "Multi-disease knowledge graph: oncology + neurodegenerative (AD, PD) + metabolic (T2D). Curated from Hetionet v1.0, DrugBank, and published repurposing literature.",
+  "_source": "Hetionet v1.0 (het.io) + DrugBank + published repurposing literature — curated for cancer domain",
+  "_version": "2.1-multi-disease",
+  "nodes": [
+    {
+      "identifier": "Metformin",
+      "name": "Metformin",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "Aspirin",
+      "name": "Aspirin",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "Atorvastatin",
+      "name": "Atorvastatin",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "Itraconazole",
+      "name": "Itraconazole",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "Doxycycline",
+      "name": "Doxycycline",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "Hydroxychloroquine",
+      "name": "Hydroxychloroquine",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "Rapamycin",
+      "name": "Rapamycin",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "Thalidomide",
+      "name": "Thalidomide",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "AMPK",
+      "name": "AMPK",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "MTOR",
+      "name": "MTOR",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "TP53",
+      "name": "TP53",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "KRAS",
+      "name": "KRAS",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "BRCA1",
+      "name": "BRCA1",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "BRCA2",
+      "name": "BRCA2",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "HER2",
+      "name": "HER2",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "PIK3CA",
+      "name": "PIK3CA",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "PTEN",
+      "name": "PTEN",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "COX1",
+      "name": "COX1",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "COX2",
+      "name": "COX2",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "EGFR",
+      "name": "EGFR",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "VEGFR2",
+      "name": "VEGFR2",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "SMO",
+      "name": "SMO",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "HMGCR",
+      "name": "HMGCR",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "HIF1A",
+      "name": "HIF1A",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "BCL2",
+      "name": "BCL2",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "MYC",
+      "name": "MYC",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "CDK4",
+      "name": "CDK4",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "MDM2",
+      "name": "MDM2",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "ATG5",
+      "name": "ATG5",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "ATG7",
+      "name": "ATG7",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "TFAM",
+      "name": "TFAM",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "TNFA",
+      "name": "TNFA",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "IL6",
+      "name": "IL6",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "NFKB",
+      "name": "NFKB",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "Colorectal_cancer",
+      "name": "Colorectal cancer",
+      "kind": "Disease"
+    },
+    {
+      "identifier": "Breast_cancer",
+      "name": "Breast cancer",
+      "kind": "Disease"
+    },
+    {
+      "identifier": "Pancreatic_cancer",
+      "name": "Pancreatic cancer",
+      "kind": "Disease"
+    },
+    {
+      "identifier": "NSCLC",
+      "name": "Non-small cell lung cancer",
+      "kind": "Disease"
+    },
+    {
+      "identifier": "Glioblastoma",
+      "name": "Glioblastoma",
+      "kind": "Disease"
+    },
+    {
+      "identifier": "Multiple_myeloma",
+      "name": "Multiple myeloma",
+      "kind": "Disease"
+    },
+    {
+      "identifier": "Ovarian_cancer",
+      "name": "Ovarian cancer",
+      "kind": "Disease"
+    },
+    {
+      "identifier": "Prostate_cancer",
+      "name": "Prostate cancer",
+      "kind": "Disease"
+    },
+    {
+      "identifier": "Hepatocellular_carcinoma",
+      "name": "Hepatocellular carcinoma",
+      "kind": "Disease"
+    },
+    {
+      "identifier": "Basal_cell_carcinoma",
+      "name": "Basal cell carcinoma",
+      "kind": "Disease"
+    },
+    {
+      "identifier": "MAPK_pathway",
+      "name": "MAPK signaling pathway",
+      "kind": "Pathway"
+    },
+    {
+      "identifier": "PI3K_AKT_pathway",
+      "name": "PI3K-AKT-mTOR pathway",
+      "kind": "Pathway"
+    },
+    {
+      "identifier": "Hedgehog_pathway",
+      "name": "Hedgehog signaling",
+      "kind": "Pathway"
+    },
+    {
+      "identifier": "Autophagy",
+      "name": "Autophagy",
+      "kind": "Pathway"
+    },
+    {
+      "identifier": "Apoptosis",
+      "name": "Apoptosis",
+      "kind": "Pathway"
+    },
+    {
+      "identifier": "Angiogenesis",
+      "name": "Angiogenesis",
+      "kind": "Pathway"
+    },
+    {
+      "identifier": "Semaglutide",
+      "name": "Semaglutide",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "Liraglutide",
+      "name": "Liraglutide",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "Berberine",
+      "name": "Berberine",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "Resveratrol",
+      "name": "Resveratrol",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "Nilotinib",
+      "name": "Nilotinib",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "Exenatide",
+      "name": "Exenatide",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "Lithium",
+      "name": "Lithium",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "Valproic_acid",
+      "name": "Valproic acid",
+      "kind": "Compound"
+    },
+    {
+      "identifier": "MAPT",
+      "name": "MAPT",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "APP",
+      "name": "APP",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "BACE1",
+      "name": "BACE1",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "APOE",
+      "name": "APOE",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "SNCA",
+      "name": "SNCA",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "LRRK2",
+      "name": "LRRK2",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "GLP1R",
+      "name": "GLP1R",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "INSR",
+      "name": "INSR",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "GSK3B",
+      "name": "GSK3B",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "PRKN",
+      "name": "PRKN",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "PINK1",
+      "name": "PINK1",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "SIRT1",
+      "name": "SIRT1",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "NLRP3",
+      "name": "NLRP3",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "NRF2",
+      "name": "NRF2",
+      "kind": "Gene"
+    },
+    {
+      "identifier": "Alzheimers_disease",
+      "name": "Alzheimer's disease",
+      "kind": "Disease"
+    },
+    {
+      "identifier": "Parkinsons_disease",
+      "name": "Parkinson's disease",
+      "kind": "Disease"
+    },
+    {
+      "identifier": "Type_2_diabetes",
+      "name": "Type 2 diabetes",
+      "kind": "Disease"
+    },
+    {
+      "identifier": "ALS",
+      "name": "Amyotrophic lateral sclerosis",
+      "kind": "Disease"
+    },
+    {
+      "identifier": "Epilepsy",
+      "name": "Epilepsy",
+      "kind": "Disease"
+    },
+    {
+      "identifier": "mTOR_signaling",
+      "name": "mTOR signaling pathway",
+      "kind": "Pathway"
+    },
+    {
+      "identifier": "Neuroinflammation",
+      "name": "Neuroinflammation",
+      "kind": "Pathway"
+    },
+    {
+      "identifier": "Mitophagy",
+      "name": "Mitophagy pathway",
+      "kind": "Pathway"
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "Metformin",
+      "target_id": "AMPK",
+      "kind": "activates"
+    },
+    {
+      "source_id": "Metformin",
+      "target_id": "MTOR",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Metformin",
+      "target_id": "HIF1A",
+      "kind": "downregulates"
+    },
+    {
+      "source_id": "Metformin",
+      "target_id": "NFKB",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Metformin",
+      "target_id": "MYC",
+      "kind": "downregulates"
+    },
+    {
+      "source_id": "Metformin",
+      "target_id": "TNFA",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Aspirin",
+      "target_id": "COX1",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Aspirin",
+      "target_id": "COX2",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Aspirin",
+      "target_id": "NFKB",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Aspirin",
+      "target_id": "TP53",
+      "kind": "upregulates"
+    },
+    {
+      "source_id": "Aspirin",
+      "target_id": "BCL2",
+      "kind": "downregulates"
+    },
+    {
+      "source_id": "Atorvastatin",
+      "target_id": "HMGCR",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Atorvastatin",
+      "target_id": "KRAS",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Atorvastatin",
+      "target_id": "HIF1A",
+      "kind": "downregulates"
+    },
+    {
+      "source_id": "Atorvastatin",
+      "target_id": "BCL2",
+      "kind": "downregulates"
+    },
+    {
+      "source_id": "Atorvastatin",
+      "target_id": "MYC",
+      "kind": "downregulates"
+    },
+    {
+      "source_id": "Itraconazole",
+      "target_id": "SMO",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Itraconazole",
+      "target_id": "VEGFR2",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Itraconazole",
+      "target_id": "HIF1A",
+      "kind": "downregulates"
+    },
+    {
+      "source_id": "Itraconazole",
+      "target_id": "MTOR",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Doxycycline",
+      "target_id": "TFAM",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Doxycycline",
+      "target_id": "MYC",
+      "kind": "downregulates"
+    },
+    {
+      "source_id": "Doxycycline",
+      "target_id": "BCL2",
+      "kind": "downregulates"
+    },
+    {
+      "source_id": "Doxycycline",
+      "target_id": "TNFA",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Hydroxychloroquine",
+      "target_id": "ATG5",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Hydroxychloroquine",
+      "target_id": "ATG7",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Hydroxychloroquine",
+      "target_id": "BCL2",
+      "kind": "upregulates"
+    },
+    {
+      "source_id": "Rapamycin",
+      "target_id": "MTOR",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Rapamycin",
+      "target_id": "HIF1A",
+      "kind": "downregulates"
+    },
+    {
+      "source_id": "Rapamycin",
+      "target_id": "CDK4",
+      "kind": "downregulates"
+    },
+    {
+      "source_id": "Thalidomide",
+      "target_id": "VEGFR2",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Thalidomide",
+      "target_id": "TNFA",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Thalidomide",
+      "target_id": "IL6",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Thalidomide",
+      "target_id": "NFKB",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "KRAS",
+      "target_id": "MAPK_pathway",
+      "kind": "activates"
+    },
+    {
+      "source_id": "PIK3CA",
+      "target_id": "PI3K_AKT_pathway",
+      "kind": "activates"
+    },
+    {
+      "source_id": "MTOR",
+      "target_id": "PI3K_AKT_pathway",
+      "kind": "member_of"
+    },
+    {
+      "source_id": "PTEN",
+      "target_id": "PI3K_AKT_pathway",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "SMO",
+      "target_id": "Hedgehog_pathway",
+      "kind": "activates"
+    },
+    {
+      "source_id": "ATG5",
+      "target_id": "Autophagy",
+      "kind": "member_of"
+    },
+    {
+      "source_id": "ATG7",
+      "target_id": "Autophagy",
+      "kind": "member_of"
+    },
+    {
+      "source_id": "BCL2",
+      "target_id": "Apoptosis",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "VEGFR2",
+      "target_id": "Angiogenesis",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "AMPK",
+      "target_id": "Colorectal_cancer",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "MTOR",
+      "target_id": "Colorectal_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "COX2",
+      "target_id": "Colorectal_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "TP53",
+      "target_id": "Colorectal_cancer",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "KRAS",
+      "target_id": "Colorectal_cancer",
+      "kind": "drives"
+    },
+    {
+      "source_id": "EGFR",
+      "target_id": "Colorectal_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "NFKB",
+      "target_id": "Colorectal_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "BCL2",
+      "target_id": "Colorectal_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "Autophagy",
+      "target_id": "Colorectal_cancer",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "HER2",
+      "target_id": "Breast_cancer",
+      "kind": "drives"
+    },
+    {
+      "source_id": "PIK3CA",
+      "target_id": "Breast_cancer",
+      "kind": "drives"
+    },
+    {
+      "source_id": "BRCA1",
+      "target_id": "Breast_cancer",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "BRCA2",
+      "target_id": "Breast_cancer",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "MTOR",
+      "target_id": "Breast_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "HIF1A",
+      "target_id": "Breast_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "MYC",
+      "target_id": "Breast_cancer",
+      "kind": "drives"
+    },
+    {
+      "source_id": "BCL2",
+      "target_id": "Breast_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "KRAS",
+      "target_id": "Pancreatic_cancer",
+      "kind": "drives"
+    },
+    {
+      "source_id": "TP53",
+      "target_id": "Pancreatic_cancer",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "MTOR",
+      "target_id": "Pancreatic_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "HIF1A",
+      "target_id": "Pancreatic_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "NFKB",
+      "target_id": "Pancreatic_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "HMGCR",
+      "target_id": "Pancreatic_cancer",
+      "kind": "associates"
+    },
+    {
+      "source_id": "Autophagy",
+      "target_id": "Pancreatic_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "EGFR",
+      "target_id": "NSCLC",
+      "kind": "drives"
+    },
+    {
+      "source_id": "KRAS",
+      "target_id": "NSCLC",
+      "kind": "drives"
+    },
+    {
+      "source_id": "VEGFR2",
+      "target_id": "NSCLC",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "SMO",
+      "target_id": "NSCLC",
+      "kind": "associates"
+    },
+    {
+      "source_id": "MTOR",
+      "target_id": "NSCLC",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "HIF1A",
+      "target_id": "NSCLC",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "EGFR",
+      "target_id": "Glioblastoma",
+      "kind": "drives"
+    },
+    {
+      "source_id": "PTEN",
+      "target_id": "Glioblastoma",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "MTOR",
+      "target_id": "Glioblastoma",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "HIF1A",
+      "target_id": "Glioblastoma",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "MDM2",
+      "target_id": "Glioblastoma",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "Autophagy",
+      "target_id": "Glioblastoma",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "IL6",
+      "target_id": "Multiple_myeloma",
+      "kind": "drives"
+    },
+    {
+      "source_id": "NFKB",
+      "target_id": "Multiple_myeloma",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "VEGFR2",
+      "target_id": "Multiple_myeloma",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "BCL2",
+      "target_id": "Multiple_myeloma",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "MYC",
+      "target_id": "Multiple_myeloma",
+      "kind": "drives"
+    },
+    {
+      "source_id": "TNFA",
+      "target_id": "Multiple_myeloma",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "Apoptosis",
+      "target_id": "Multiple_myeloma",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "BRCA1",
+      "target_id": "Ovarian_cancer",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "BRCA2",
+      "target_id": "Ovarian_cancer",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "TP53",
+      "target_id": "Ovarian_cancer",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "PIK3CA",
+      "target_id": "Ovarian_cancer",
+      "kind": "drives"
+    },
+    {
+      "source_id": "HIF1A",
+      "target_id": "Ovarian_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "VEGFR2",
+      "target_id": "Ovarian_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "KRAS",
+      "target_id": "Prostate_cancer",
+      "kind": "associates"
+    },
+    {
+      "source_id": "PTEN",
+      "target_id": "Prostate_cancer",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "MTOR",
+      "target_id": "Prostate_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "HMGCR",
+      "target_id": "Prostate_cancer",
+      "kind": "associates"
+    },
+    {
+      "source_id": "BCL2",
+      "target_id": "Prostate_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "CDK4",
+      "target_id": "Prostate_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "MTOR",
+      "target_id": "Hepatocellular_carcinoma",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "HIF1A",
+      "target_id": "Hepatocellular_carcinoma",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "NFKB",
+      "target_id": "Hepatocellular_carcinoma",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "TP53",
+      "target_id": "Hepatocellular_carcinoma",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "VEGFR2",
+      "target_id": "Hepatocellular_carcinoma",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "KRAS",
+      "target_id": "Hepatocellular_carcinoma",
+      "kind": "associates"
+    },
+    {
+      "source_id": "SMO",
+      "target_id": "Basal_cell_carcinoma",
+      "kind": "drives"
+    },
+    {
+      "source_id": "Hedgehog_pathway",
+      "target_id": "Basal_cell_carcinoma",
+      "kind": "drives"
+    },
+    {
+      "source_id": "TP53",
+      "target_id": "Basal_cell_carcinoma",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "MAPK_pathway",
+      "target_id": "Colorectal_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "MAPK_pathway",
+      "target_id": "Pancreatic_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "MAPK_pathway",
+      "target_id": "NSCLC",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "PI3K_AKT_pathway",
+      "target_id": "Breast_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "PI3K_AKT_pathway",
+      "target_id": "Ovarian_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "PI3K_AKT_pathway",
+      "target_id": "Prostate_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "Angiogenesis",
+      "target_id": "NSCLC",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "Angiogenesis",
+      "target_id": "Ovarian_cancer",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "Angiogenesis",
+      "target_id": "Glioblastoma",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "Metformin",
+      "target_id": "GSK3B",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Metformin",
+      "target_id": "MAPT",
+      "kind": "reduces_phosphorylation"
+    },
+    {
+      "source_id": "Metformin",
+      "target_id": "NLRP3",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Metformin",
+      "target_id": "NRF2",
+      "kind": "activates"
+    },
+    {
+      "source_id": "Metformin",
+      "target_id": "INSR",
+      "kind": "sensitizes"
+    },
+    {
+      "source_id": "Rapamycin",
+      "target_id": "MAPT",
+      "kind": "reduces_phosphorylation"
+    },
+    {
+      "source_id": "Rapamycin",
+      "target_id": "APP",
+      "kind": "reduces"
+    },
+    {
+      "source_id": "Rapamycin",
+      "target_id": "NLRP3",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Semaglutide",
+      "target_id": "GLP1R",
+      "kind": "activates"
+    },
+    {
+      "source_id": "Semaglutide",
+      "target_id": "INSR",
+      "kind": "sensitizes"
+    },
+    {
+      "source_id": "Semaglutide",
+      "target_id": "NLRP3",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Semaglutide",
+      "target_id": "NRF2",
+      "kind": "activates"
+    },
+    {
+      "source_id": "Liraglutide",
+      "target_id": "GLP1R",
+      "kind": "activates"
+    },
+    {
+      "source_id": "Liraglutide",
+      "target_id": "SNCA",
+      "kind": "reduces"
+    },
+    {
+      "source_id": "Exenatide",
+      "target_id": "GLP1R",
+      "kind": "activates"
+    },
+    {
+      "source_id": "Exenatide",
+      "target_id": "SNCA",
+      "kind": "reduces"
+    },
+    {
+      "source_id": "Exenatide",
+      "target_id": "PINK1",
+      "kind": "upregulates"
+    },
+    {
+      "source_id": "Nilotinib",
+      "target_id": "LRRK2",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Nilotinib",
+      "target_id": "SNCA",
+      "kind": "reduces"
+    },
+    {
+      "source_id": "Nilotinib",
+      "target_id": "PRKN",
+      "kind": "upregulates"
+    },
+    {
+      "source_id": "Atorvastatin",
+      "target_id": "APOE",
+      "kind": "modulates"
+    },
+    {
+      "source_id": "Atorvastatin",
+      "target_id": "NLRP3",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Atorvastatin",
+      "target_id": "NRF2",
+      "kind": "activates"
+    },
+    {
+      "source_id": "Aspirin",
+      "target_id": "NLRP3",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Aspirin",
+      "target_id": "NRF2",
+      "kind": "activates"
+    },
+    {
+      "source_id": "Resveratrol",
+      "target_id": "SIRT1",
+      "kind": "activates"
+    },
+    {
+      "source_id": "Resveratrol",
+      "target_id": "MTOR",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Resveratrol",
+      "target_id": "NLRP3",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Resveratrol",
+      "target_id": "NRF2",
+      "kind": "activates"
+    },
+    {
+      "source_id": "Berberine",
+      "target_id": "AMPK",
+      "kind": "activates"
+    },
+    {
+      "source_id": "Berberine",
+      "target_id": "INSR",
+      "kind": "sensitizes"
+    },
+    {
+      "source_id": "Berberine",
+      "target_id": "NLRP3",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Berberine",
+      "target_id": "GSK3B",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Lithium",
+      "target_id": "GSK3B",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Lithium",
+      "target_id": "MAPT",
+      "kind": "reduces_phosphorylation"
+    },
+    {
+      "source_id": "Hydroxychloroquine",
+      "target_id": "NLRP3",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Hydroxychloroquine",
+      "target_id": "APP",
+      "kind": "reduces"
+    },
+    {
+      "source_id": "Valproic_acid",
+      "target_id": "GSK3B",
+      "kind": "inhibits"
+    },
+    {
+      "source_id": "Valproic_acid",
+      "target_id": "MAPT",
+      "kind": "reduces_phosphorylation"
+    },
+    {
+      "source_id": "MAPT",
+      "target_id": "Alzheimers_disease",
+      "kind": "drives"
+    },
+    {
+      "source_id": "APP",
+      "target_id": "Alzheimers_disease",
+      "kind": "drives"
+    },
+    {
+      "source_id": "BACE1",
+      "target_id": "Alzheimers_disease",
+      "kind": "drives"
+    },
+    {
+      "source_id": "APOE",
+      "target_id": "Alzheimers_disease",
+      "kind": "risk_factor"
+    },
+    {
+      "source_id": "GSK3B",
+      "target_id": "Alzheimers_disease",
+      "kind": "drives"
+    },
+    {
+      "source_id": "NLRP3",
+      "target_id": "Alzheimers_disease",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "MTOR",
+      "target_id": "Alzheimers_disease",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "GLP1R",
+      "target_id": "Alzheimers_disease",
+      "kind": "protects"
+    },
+    {
+      "source_id": "NRF2",
+      "target_id": "Alzheimers_disease",
+      "kind": "protects"
+    },
+    {
+      "source_id": "SIRT1",
+      "target_id": "Alzheimers_disease",
+      "kind": "protects"
+    },
+    {
+      "source_id": "INSR",
+      "target_id": "Alzheimers_disease",
+      "kind": "associates"
+    },
+    {
+      "source_id": "AMPK",
+      "target_id": "Alzheimers_disease",
+      "kind": "protects"
+    },
+    {
+      "source_id": "SNCA",
+      "target_id": "Parkinsons_disease",
+      "kind": "drives"
+    },
+    {
+      "source_id": "LRRK2",
+      "target_id": "Parkinsons_disease",
+      "kind": "drives"
+    },
+    {
+      "source_id": "PRKN",
+      "target_id": "Parkinsons_disease",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "PINK1",
+      "target_id": "Parkinsons_disease",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "GLP1R",
+      "target_id": "Parkinsons_disease",
+      "kind": "protects"
+    },
+    {
+      "source_id": "NLRP3",
+      "target_id": "Parkinsons_disease",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "INSR",
+      "target_id": "Type_2_diabetes",
+      "kind": "associates"
+    },
+    {
+      "source_id": "GLP1R",
+      "target_id": "Type_2_diabetes",
+      "kind": "treats"
+    },
+    {
+      "source_id": "AMPK",
+      "target_id": "Type_2_diabetes",
+      "kind": "protects"
+    },
+    {
+      "source_id": "MTOR",
+      "target_id": "Type_2_diabetes",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "NLRP3",
+      "target_id": "Type_2_diabetes",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "MTOR",
+      "target_id": "mTOR_signaling",
+      "kind": "member_of"
+    },
+    {
+      "source_id": "AMPK",
+      "target_id": "mTOR_signaling",
+      "kind": "suppresses"
+    },
+    {
+      "source_id": "NLRP3",
+      "target_id": "Neuroinflammation",
+      "kind": "drives"
+    },
+    {
+      "source_id": "PINK1",
+      "target_id": "Mitophagy",
+      "kind": "activates"
+    },
+    {
+      "source_id": "PRKN",
+      "target_id": "Mitophagy",
+      "kind": "activates"
+    },
+    {
+      "source_id": "mTOR_signaling",
+      "target_id": "Alzheimers_disease",
+      "kind": "promotes"
+    },
+    {
+      "source_id": "Neuroinflammation",
+      "target_id": "Alzheimers_disease",
+      "kind": "drives"
+    },
+    {
+      "source_id": "Neuroinflammation",
+      "target_id": "Parkinsons_disease",
+      "kind": "drives"
+    },
+    {
+      "source_id": "Mitophagy",
+      "target_id": "Parkinsons_disease",
+      "kind": "protects"
+    },
+    {
+      "source_id": "GSK3B",
+      "target_id": "Epilepsy",
+      "kind": "associates"
+    },
+    {
+      "source_id": "Valproic_acid",
+      "target_id": "Epilepsy",
+      "kind": "treats"
+    },
+    {
+      "source_id": "Lithium",
+      "target_id": "Epilepsy",
+      "kind": "associates"
+    }
+  ]
+}
